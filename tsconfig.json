@@ -1,6 +1,7 @@
 {
   "include": [
     "./src/**/*",
+    "./cypress/**/*",
     "./server/*"
   ],
   "compilerOptions": {
@@ -21,7 +22,10 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "noEmit": true,
-    "types": [],
+    "types": [
+      "cypress",
+      "cypress-file-upload"
+    ],
     "isolatedModules": true
   }
 }
