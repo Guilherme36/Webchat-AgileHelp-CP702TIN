@@ -22,10 +22,10 @@ const getParams = () => {
         throw "Please provide a valid `authToken`";
     }
     if (!apiKey) {
-        throw "Please provide a valid `apiKey`. More info at https://www.twilio.com/docs/glossary/what-is-an-api-key#how-can-i-create-api-keys";
+        throw "Please provide a valid `apiKey`.";
     }
     if (!apiSecret) {
-        throw "Please provide a valid `apiSecret`. More info https://www.twilio.com/docs/glossary/what-is-an-api-key#how-can-i-create-api-keys";
+        throw "Please provide a valid `apiSecret`.";
     }
     if (!addressSid) {
         throw "Please provide a valid `addressSid`";
