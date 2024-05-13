@@ -1,5 +1,5 @@
 const { accountSid, authToken, projectId, topic } = process.env;
-// Initialization
+// Initialization 
 const functions = require("firebase-functions");
 const clientTwilio = require("twilio")(accountSid, authToken);
 
