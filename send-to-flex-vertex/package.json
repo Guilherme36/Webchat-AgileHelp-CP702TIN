@@ -1,0 +1,8 @@
+{
+    "name": "send-to-flex-vertex",
+    "version": "0.0.1", 
+    "dependencies":{
+      "twilio": "^3.82.0"
+  
+    }
+  }
