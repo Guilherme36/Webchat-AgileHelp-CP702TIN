@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .header {
+    background: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header-content {
+    margin-top: 50px;
+  }
+  
+  .header-content h1 {
+    font-size: 48px;
+  }
+  
+  .header-content p {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    background: #61dafb;
+    color: #282c34;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .about,
+  .features,
+  .contact {
+    padding: 50px 20px;
+  }
+  
+  .about h2,
+  .features h2,
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    list-style: none;
+  }
+  
+  .features li {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .contact-form button {
+    background: #61dafb;
+    color: #282c34;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background: #282c34;
+    color: white;
+    padding: 20px;
+  }
+  
